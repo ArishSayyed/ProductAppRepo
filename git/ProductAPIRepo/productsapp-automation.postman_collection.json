@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "0d7027b7-225d-4420-9800-e4fe61b2445d",
+		"name": "productsapp-automation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43569933",
+		"_collection_link": "https://arishsayyed.postman.co/workspace/Arish-Sayyed's-Workspace~53d5a3e1-9c8d-4b6d-81c4-056b850e71b1/collection/43569933-0d7027b7-225d-4420-9800-e4fe61b2445d?action=share&source=collection_link&creator=43569933"
+	},
+	"item": [
+		{
+			"name": "Get All Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44347/api/products",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44347",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Product by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44347/api/products",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44347",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
